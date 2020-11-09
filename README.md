@@ -1,31 +1,25 @@
-# Minesweet
-> Microsoft Minesweeper RCE(Reverse Code Engineering) project
+# Gambian Pouched Rat(GPR)
+**The Gambian Pouched Rat** can be used detect a landmine in practice if trained.
+I got naming inspiration from this thing.
+The goal of project is improve my PE file analyzing skills.
+As you know, Minesweeper doesn't exist online competition feature on inner.
+Therefore, probably this program doesn't damage to other peoples.
 
-## What's the Minesweet?
-<img src="https://github.com/danielsmith0612/Minesweet/blob/master/ref/Minesweet-intro.png" width="450px">
+## Version compatibility
 
-Minesweet is Minesweeper RCE(Reverse Code Engineering) project
+* Windows XP Minesweeper
 
-Minesweet only support Windows XP minesweeper yet
+## Features
 
-I'll support Windows 7 minesweeper in a short time
+Abusing game systems.
 
-### Game board analysis
-<img src="https://github.com/danielsmith0612/Minesweet/blob/master/ref/Minesweet-mine.png" width="450px">
+* Time counting
+* Look up landmines coordinates
 
-### Free control the timer
-<img src="https://github.com/danielsmith0612/Minesweet/blob/master/ref/Minesweet-timer-0.png" width="450px">
+## How to use
 
-<img src="https://github.com/danielsmith0612/Minesweet/blob/master/ref/Minesweet-timer-1.png" width="450px">
-
-
-## Download
-You can download this executable file in here
-https://github.com/danielsmith0612/Minesweet/releases
-
-Thank you so much to download
+Under preparing.
 
 
 ## To-Do
-* Support windows 7 minesweeper
-* Implementing CLI as GUI
+* Conversion implemented features to DLL
