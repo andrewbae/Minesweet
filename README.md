@@ -19,6 +19,3 @@ Abusing game systems.
 
 Under preparing.
 
-
-## To-Do
-* Conversion implemented features to DLL
