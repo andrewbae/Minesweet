@@ -4,18 +4,18 @@ I got naming inspiration from this thing.
 The goal of project is to improve my PE file analyzing skills.
 As you know, Minesweeper Doesn’t have a competitive capability inside it. (grin)
 
-## Version compatibility
-
+## Usage
+### Version Compatibility
 * Windows XP Minesweeper
 
-## Features
-
-Abusing game systems.
-
-* Time counting
+### Features
+* Modifying the time counting
 * Look up landmines coordinates
 
-## How to use
-
-Under preparing.
+## Build Instruction
+### Prerequisites
+You will need:
+* A modern C++ compiler(minGW)
+* CMake 3.12+ installed
+* Dependent packages(g++-multilib)
 
