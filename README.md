@@ -1,9 +1,8 @@
 # Gambian Pouched Rat(GPR)
-**The Gambian Pouched Rat** can be used detect a landmine in practice if trained.
+**The Gambian Pouched Rat** can be used to detect a landmine in practice if trained.
 I got naming inspiration from this thing.
-The goal of project is improve my PE file analyzing skills.
-As you know, Minesweeper doesn't exist online competition feature on inner.
-Therefore, probably this program doesn't damage to other peoples.
+The goal of project is to improve my PE file analyzing skills.
+As you know, Minesweeper Doesn’t have a competitive capability inside it. (grin)
 
 ## Version compatibility
 
