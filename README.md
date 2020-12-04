@@ -13,9 +13,18 @@ As you know, Minesweeper Doesn’t have a competitive capability inside it. (gri
 * Look up landmines coordinates
 
 ## Build Instruction
+```bash
+$ git clone https://github.com/andrewbae/gambian-pouched-rat.git
+$ cd gambian-pouched-rat
+$ mkdir build
+$ cmake ..
+```
+
 ### Prerequisites
-You will need:
-* A modern C++ compiler(minGW)
-* CMake 3.12+ installed
-* Dependent packages(g++-multilib)
+* CMake 3.12+
+
+* Linux - minGW 
+* Windows - Visual Studio(MSVC)
+
+
 

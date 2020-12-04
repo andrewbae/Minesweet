@@ -1,6 +1,6 @@
 ﻿#pragma warning(disable: 4996)
 #include <windows.h>
-#include <TlHelp32.h>
+#include <tlhelp32.h>
 #include <stdio.h>
 #include "main.h"
 
@@ -29,7 +29,7 @@ int main()
 	while (1) {
 		fnScreenBanner();
 		printf("\nPlease select the options\n> ");
-		iAnswer = getch();
+		gets((char*)iAnswer);
 		switch (iAnswer) {
 		case '0':
 			exit(0);
@@ -39,8 +39,8 @@ int main()
 			printf("\rTimer: %d\n", time);	
 			puts("Enter the desired timer value");
 			scanf("%d", &time);
-			WriteProcessMemory(hProcess, (LPCVOID)TIMER_ADDRESS, NULL, sizeof(DWORD), NULL);
-	        WriteProcessMemory(hProcess, (LPCVOID)TIMER_ADDRESS, &time, sizeof(DWORD), NULL);
+			WriteProcessMemory(hProcess, (void *)TIMER_ADDRESS, NULL, sizeof(DWORD), NULL);
+	        WriteProcessMemory(hProcess, (void *)TIMER_ADDRESS, &time, sizeof(DWORD), NULL);
 			break;
 		case '2':
 			system("cls");
@@ -176,7 +176,7 @@ for (y = 0; y < MAP_HEIGHT; y++) {
 char iAnswer; 
 	while (1) {
 		puts("[q] quit");
-		iAnswer = getch();
+		gets((char*)iAnswer);
 		if (iAnswer == 'q') {
 			return 0;
 			break;

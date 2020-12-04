@@ -18,6 +18,6 @@
 
 PROCESSENTRY32 fnSearchMinesweeperProcess();
 int fnScreenBanner();
-int fnMineLocationradar(HANDLE hProcess);
+int fnMineLocationRadar(HANDLE hProcess);
 
 #endif
