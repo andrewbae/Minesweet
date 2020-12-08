@@ -23,11 +23,13 @@ As you know, Minesweeper Doesn’t have a competitive capability inside it. (gri
 $ git clone https://github.com/andrewbae/gambian-pouched-rat.git
 $ cd gambian-pouched-rat && mkdir build 
 $ cmake . -D CMAKE_CXX_COMPILER="MSVC" -Bbuild
+$ cmake --build build/
 ```
 #### Linux based
 ```bash
 $ git clone https://github.com/andrewbae/gambian-pouched-rat.git
 $ cd gambian-pouched-rat && mkdir build 
 $ cmake . -D CMAKE_CXX_COMPILER="x86_64-w64-mingw32-g++" -Bbuild
+$ cmake --build build/
 ```
 
