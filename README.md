@@ -15,14 +15,12 @@ As you know, Minesweeper Doesn’t have a competitive capability inside it. (gri
 ## Build Instruction
 ```bash
 $ git clone https://github.com/andrewbae/gambian-pouched-rat.git
-$ cd gambian-pouched-rat
-$ mkdir build
-$ cmake ..
+$ cd gambian-pouched-rat && mkdir build 
+$ cmake . -Bbuild
 ```
 
 ### Prerequisites
 * CMake 3.12+
-
 * Linux - minGW 
 * Windows - Visual Studio(MSVC)
 
