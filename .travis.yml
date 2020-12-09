@@ -1,9 +1,6 @@
-matrix:
-  include:
-  - name: "MSVC"
-    os: windows
-    language: cpp
-    script:
+os: windows
+language: cpp
+script:
     - cd gambian-pouched-rat && mkdir build
     - cmake . -D CMAKE_CXX_COMPILER="MSVC" -Bbuild
     - cmake --build ./build
