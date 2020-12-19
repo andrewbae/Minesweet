@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project("gambian-pouched-rat")
+project("mine-plow")
 set(CMAKE_SYSTEM_NAME Windows)
 #set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_VERBOSE_MAKEFILE true)
