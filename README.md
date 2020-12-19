@@ -1,5 +1,8 @@
 # mine-plow
-The goal of project is to improve my PE file analyzing skills.
+[![HitCount](http://hits.dwyl.com/andrewbae/mine-plow.svg)](http://hits.dwyl.com/andrewbae/mine-plow)  
+A simple Windows minesweeper trainer.  
+Unfortunately, mine-plow does support XP version only yet.  
+[@andrewbae](github.com/andrewbae) 
 
 ## Usage
 ### Version Compatibility
