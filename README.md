@@ -12,6 +12,13 @@ Unfortunately, mine-plow does support XP version only yet.
 * Modifying the time counting
 * Look up landmines coordinates
 
+### Technical details
+0x0f: Unknown box
+0x10: Start and end lines of board
+0x40: Blank box
+0x41~0x48: Numeric box
+0x8f: mine
+
 ## Build Instruction
 ### Prerequisites
 * CMake 3.12+
