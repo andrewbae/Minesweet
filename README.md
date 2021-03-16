@@ -13,11 +13,11 @@ Unfortunately, mine-plow does support XP version only yet.
 * Look up landmines coordinates
 
 ### Technical details
-0x0f: Unknown box
-0x10: Start and end lines of board
-0x40: Blank box
-0x41~0x48: Numeric box
-0x8f: mine
+0x0f: Unknown box  
+0x10: Start and end lines of board  
+0x40: Blank box  
+0x41~0x48: Numeric box  
+0x8f: mine  
 
 ## Build Instruction
 ### Prerequisites
@@ -27,15 +27,15 @@ Unfortunately, mine-plow does support XP version only yet.
 
 #### Windows based
 ```bash
-$ git clone https://github.com/andrewbae/gambian-pouched-rat.git
-$ cd gambian-pouched-rat && mkdir build 
+$ git clone https://github.com/andrewbae/mine-plow.git
+$ cd mine-plow && mkdir build 
 $ cmake . -D CMAKE_CXX_COMPILER="MSVC" -Bbuild
 $ cmake --build build/
 ```
 #### Linux based
 ```bash
-$ git clone https://github.com/andrewbae/gambian-pouched-rat.git
-$ cd gambian-pouched-rat && mkdir build 
+$ git clone https://github.com/andrewbae/mine-plow.git
+$ cd mine-plow && mkdir build 
 $ cmake . -D CMAKE_CXX_COMPILER="x86_64-w64-mingw32-g++" -Bbuild
 $ cmake --build build/
 ```
