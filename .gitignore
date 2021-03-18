@@ -1,1 +1,5 @@
 build
+.vs
+.git
+out
+.DS_Store
