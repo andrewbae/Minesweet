@@ -65,7 +65,7 @@ void __stdcall Application::DisableEntireMines(
     ReadProcessMemory(processHandle, (LPCVOID)GAME_BOARD_ADDRESS, gameBoard, GAME_BOARD_SIZE, 0);
     for (UINT v0 = 0; v0 < GAME_BOARD_SIZE; v0++) {
         if (*(gameBoard + v0) == GAME_BOX_MINE_HIDDEN) {
-            *(gameBoard + v0) = GAME_BOX_MINE_HIDDEN+1;
+            *(gameBoard + v0) = GAME_BOX_MINE_HIDDEN-1;
         }
     }
     WriteProcessMemory(processHandle, (LPCVOID*)GAME_BOARD_ADDRESS, gameBoard, GAME_BOARD_SIZE, 0);
