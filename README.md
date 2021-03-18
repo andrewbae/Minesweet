@@ -43,9 +43,8 @@ Unfortunately, mine-plow does support XP version only yet.
 * CMake 3.12+
 * Linux - minGW 
 * Windows - Visual Studio(MSVC)
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/40394063/111703989-cdcf3680-8881-11eb-9add-792f72f400c2.gif)
 
-#### Windows based<img width="746" alt="Screen Shot 2021-03-19 at 06 24 40" src="https://user-images.githubusercontent.com/40394063/111699687-cf95fb80-887b-11eb-9b0d-4f090b4174a7.png">
+#### Windows based
 
 ```bash
 $ git clone https://github.com/andrewbae/mine-plow.git
@@ -60,5 +59,3 @@ $ cd mine-plow && mkdir build
 $ cmake . -D CMAKE_CXX_COMPILER="x86_64-w64-mingw32-g++" -Bbuild
 $ cmake --build build/
 ```
-
-
