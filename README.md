@@ -9,15 +9,29 @@ Unfortunately, mine-plow does support XP version only yet.
 * Windows XP Minesweeper
 
 ### Features
-* Modifying the time counting
-* Look up landmines coordinates
+* Disable the entire mines
+* Reset the timer
 
 ### Technical details
-0x0f: Unknown box  
-0x10: Start and end lines of board  
-0x40: Blank box  
-0x41~0x48: Numeric box  
-0x8f: mine  
+```cpp
+#define GAME_TIMER_ADDRESS (0x0100579C)
+#define GAME_BOARD_ADDRESS (0x01005360)
+#define GAME_BOARD_SIZE (832)
+#define GAME_BOARD_WALL (0x10)
+
+#define GAME_BOX_UNKNOWN (0x0f)
+#define GAME_BOX_BLANK (0x40)
+#define GAME_BOX_1 (0x41)
+#define GAME_BOX_2 (0x42)
+#define GAME_BOX_3 (0x43)
+#define GAME_BOX_4 (0x44)
+#define GAME_BOX_5 (0x45)
+#define GAME_BOX_6 (0x46)
+#define GAME_BOX_7 (0x47)
+#define GAME_BOX_8 (0x48)
+#define GAME_BOX_MINE_HIDDEN (0x8f)
+#define GAME_BOX_MINE_SHOWN (0x8a)
+```
 
 ## Build Instruction
 ### Prerequisites
